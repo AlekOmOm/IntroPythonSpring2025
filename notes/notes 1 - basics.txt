@@ -1,0 +1,28 @@
+lesson 1
+Course Overview
+The course is structured into 14 sessions, covering a wide range of topics from basic Python programming to advanced concepts like Large Language Models (LLMs), data analysis, and frontend development with Streamlit. The course also emphasizes practical application and a "Pythonic" approach to programming.
+
+
+## Læringsmål
+
+Efter denne uge vil du:
+
+- Have et overblik over, hvordan dette valgfag er struktureret, og hvad du kan forvente at lære i løbet af semesteret.
+- Have en forståelse af, hvordan du forventes at lære i løbet af dette semester.
+- Have en grundlæggende forståelse af et Python-udviklingsmiljø og vide, hvordan du bruger det.
+- Have en grundlæggende forståelse for, hvordan et Python-script er struktureret.
+- Være i stand til at arbejde med strings, betingelser, iterationer og funktioner.
+- Have forståelse for boolske operatore og logik i python.
+
+# Lesson 1
+
+## Aim
+Python Basics: Introduction to Python syntax, variables, data types, and basic programming concepts.
+
+## Session 1 - Introduktion til Python:
+
+Python Basics
+
+Exercises: Strings, Strings 2
+
+Quizzes: Python Strings Quiz, Splitting Strings Quiz
