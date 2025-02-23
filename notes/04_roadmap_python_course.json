@@ -1,0 +1,172 @@
+{
+  "session": {
+    "number": 4,
+    "title": "Advanced Python Concepts",
+    "format": "Self-study week",
+    "mandatory_completion": true
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "Classes and Objects",
+      "type": "choice",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Python Classes and Objects",
+          "url": "https://www.youtube.com/watch?v=apACNr7DC_s"
+        },
+        {
+          "type": "article",
+          "title": "Python Classes: The Power of Object-Oriented Programming",
+          "url": "https://realpython.com/python-classes/"
+        }
+      ],
+      "learning_outcomes": [
+        "Understanding class/object fundamentals",
+        "Class creation and usage",
+        "Object and method implementation"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "SQLite Database",
+      "type": "required",
+      "resources": [
+        {
+          "type": "video",
+          "title": "SQLite in Python",
+          "duration": "10:10",
+          "url": "https://www.youtube.com/watch?v=c8yHTlrs9EA"
+        },
+        {
+          "type": "documentation",
+          "title": "SQLite3 Python Documentation",
+          "url": "https://docs.python.org/3/library/sqlite3.html"
+        }
+      ],
+      "key_concepts": [
+        "Database connections",
+        "Cursor operations",
+        "SQL basic operations",
+        "Error handling",
+        "Batch operations with executemany"
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "REST API with Flask",
+      "type": "required",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Create A Python API in 12 Minutes",
+          "duration": "12:03",
+          "url": "https://www.youtube.com/watch?v=zsYIw6RXjfM"
+        }
+      ],
+      "practical_exercise": {
+        "title": "Members API Implementation",
+        "endpoints": [
+          {
+            "method": "GET",
+            "path": "/members",
+            "description": "List all members"
+          },
+          {
+            "method": "GET",
+            "path": "/members/<id>",
+            "description": "Get single member"
+          },
+          {
+            "method": "POST",
+            "path": "/members",
+            "description": "Create new member"
+          },
+          {
+            "method": "PUT/PATCH",
+            "path": "/members/<id>",
+            "description": "Update member"
+          },
+          {
+            "method": "DELETE",
+            "path": "/members/<id>",
+            "description": "Delete member"
+          }
+        ],
+        "database_schema": {
+          "table": "members",
+          "columns": [
+            {
+              "name": "id",
+              "type": "INTEGER",
+              "constraints": ["PRIMARY KEY", "AUTOINCREMENT"]
+            },
+            {
+              "name": "first_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "last_name",
+              "type": "TEXT"
+            },
+            {
+              "name": "birth_date",
+              "type": "TEXT"
+            },
+            {
+              "name": "gender",
+              "type": "TEXT"
+            },
+            {
+              "name": "email",
+              "type": "TEXT"
+            },
+            {
+              "name": "phonenumber",
+              "type": "TEXT"
+            },
+            {
+              "name": "address",
+              "type": "TEXT"
+            },
+            {
+              "name": "nationality",
+              "type": "TEXT"
+            },
+            {
+              "name": "active",
+              "type": "BOOLEAN"
+            },
+            {
+              "name": "github_username",
+              "type": "TEXT"
+            }
+          ]
+        },
+        "implementation_steps": [
+          "Set up basic Flask application",
+          "Implement routes with dictionary data",
+          "Create SQLite database and table",
+          "Migrate dictionary data to database",
+          "Update routes to use database",
+          "Add error handling",
+          "Test all endpoints"
+        ],
+        "requirements": [
+          "Use dictionary data source initially",
+          "Migrate to SQLite database",
+          "Implement proper HTTP status codes",
+          "Handle errors appropriately",
+          "Follow REST conventions"
+        ]
+      }
+    }
+  ],
+  "completion": {
+    "platform": "Fronter",
+    "type": "checkbox",
+    "mandatory": true,
+    "url": "https://kea-fronter.itslearning.com/plans/courses/7061/plan/115819/element/1360507"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "session_4_context": {
+    "context_type": "python_course_session",
+    "context_markers": ["final_fundamentals", "applied_integration", "self_study"],
+    "knowledge_graph": {
+      "core_concepts": {
+        "oop": {
+          "context_markers": ["class_definition", "object_instantiation", "method_implementation"],
+          "technical_scope": {
+            "includes": ["basic_class_structure", "instance_methods", "attributes"],
+            "excludes": ["metaclasses", "multiple_inheritance"]
+          },
+          "integration_patterns": [
+            {
+              "pattern": "model_definition",
+              "connects_to": "database_layer",
+              "through": "data_models"
+            },
+            {
+              "pattern": "resource_representation",
+              "connects_to": "api_layer",
+              "through": "endpoint_handlers"
+            }
+          ],
+          "implementation_context": {
+            "code_patterns": ["class_declaration", "method_definition", "property_usage"],
+            "error_patterns": ["attribute_errors", "method_resolution", "initialization_errors"]
+          }
+        },
+        "database": {
+          "context_markers": ["sqlite_operations", "data_persistence", "query_execution"],
+          "technical_scope": {
+            "includes": ["connection_handling", "cursor_operations", "basic_queries", "transactions"],
+            "excludes": ["complex_joins", "stored_procedures"]
+          },
+          "integration_patterns": [
+            {
+              "pattern": "data_access",
+              "connects_to": "api_layer",
+              "through": "crud_operations"
+            }
+          ],
+          "implementation_context": {
+            "code_patterns": ["connection_setup", "cursor_usage", "query_execution", "transaction_handling"],
+            "error_patterns": ["connection_errors", "query_errors", "transaction_failures"]
+          }
+        },
+        "rest_api": {
+          "context_markers": ["flask_framework", "http_methods", "endpoint_definition"],
+          "technical_scope": {
+            "includes": ["route_definition", "request_handling", "response_formatting", "status_codes"],
+            "excludes": ["authentication", "complex_middleware"]
+          },
+          "integration_patterns": [
+            {
+              "pattern": "endpoint_handling",
+              "connects_to": "database_layer",
+              "through": "data_operations"
+            }
+          ],
+          "implementation_context": {
+            "code_patterns": ["route_declaration", "request_processing", "response_construction"],
+            "error_patterns": ["http_errors", "validation_errors", "database_integration_errors"]
+          }
+        }
+      },
+      "integration_context": {
+        "system_layers": {
+          "api_layer": {
+            "responsibilities": ["request_handling", "routing", "response_formatting"],
+            "interfaces": ["http_endpoints", "status_codes", "json_processing"]
+          },
+          "business_layer": {
+            "responsibilities": ["data_validation", "business_logic", "error_handling"],
+            "interfaces": ["model_classes", "service_methods"]
+          },
+          "data_layer": {
+            "responsibilities": ["data_persistence", "query_execution", "transaction_management"],
+            "interfaces": ["database_connection", "crud_operations"]
+          }
+        },
+        "implementation_flow": {
+          "request_handling": ["endpoint_receipt", "data_validation", "business_processing", "response_construction"],
+          "data_operations": ["connection_management", "transaction_handling", "query_execution"],
+          "error_handling": ["validation_errors", "business_errors", "database_errors", "http_errors"]
+        }
+      },
+      "technical_boundaries": {
+        "scope_definition": {
+          "included_technologies": ["Python", "SQLite", "Flask"],
+          "integration_level": "basic_crud_operations",
+          "implementation_depth": "fundamental_patterns"
+        },
+        "complexity_constraints": {
+          "database": "single_table_operations",
+          "api": "basic_crud_endpoints",
+          "oop": "single_class_implementation"
+        }
+      }
+    },
+    "response_guidance": {
+      "code_examples": {
+        "scope": "implementation_focused",
+        "patterns": ["complete_snippets", "error_handling_included", "comments_for_key_concepts"]
+      },
+      "explanation_depth": {
+        "technical_concepts": "implementation_level",
+        "integration_patterns": "system_interaction_level"
+      },
+      "context_awareness": {
+        "prerequisite_knowledge": "previous_sessions_assumed",
+        "progressive_complexity": "concept_building_approach"
+      }
+    }
+  }
+}

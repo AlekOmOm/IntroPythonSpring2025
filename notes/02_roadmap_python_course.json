@@ -1,0 +1,114 @@
+{
+  "session": {
+    "number": 2,
+    "title": "Python Data Structures",
+    "format": "In-person class with pre-learning videos",
+    "prerequisites": {
+      "video_tutorials": [
+        {
+          "title": "Python Lists",
+          "duration": "5:43",
+          "url": "https://www.youtube.com/watch?v=ohCDWZgNIU0",
+          "practice": "ChatGPT prompt for list exercises"
+        },
+        {
+          "title": "Python Tuples",
+          "duration": "7:43",
+          "url": "https://www.youtube.com/watch?v=NI26dqhs2Rk",
+          "practice": "ChatGPT prompt for tuple exercises"
+        },
+        {
+          "title": "Sets in Python",
+          "duration": "6:33",
+          "url": "https://www.youtube.com/watch?v=sBvaPopWOmQ",
+          "practice": "ChatGPT prompt for set exercises"
+        },
+        {
+          "title": "Python Dictionaries",
+          "duration": "6:08",
+          "url": "https://www.youtube.com/watch?v=XCcpzWs-CI4",
+          "practice": "ChatGPT prompt for dictionary exercises"
+        },
+        {
+          "title": "Python Comprehensions",
+          "url": "https://www.youtube.com/watch?v=twxE0dEp3qQ",
+          "practice": "ChatGPT prompt for comprehension exercises"
+        }
+      ]
+    }
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "Core Data Structures Overview",
+      "type": "required",
+      "key_concepts": [
+        "Lists vs Tuples: mutability and use cases",
+        "Sets for unique collections",
+        "Dictionaries for key-value pairs",
+        "Indexing and slicing",
+        "Built-in methods for each structure"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Practical Exercises",
+      "type": "required",
+      "exercises": [
+        {
+          "title": "Is it a tuple or a list?",
+          "type": "concept_application",
+          "focus": "Data structure selection"
+        },
+        {
+          "title": "Slicing Operations",
+          "type": "hands_on",
+          "focus": "Collection manipulation"
+        },
+        {
+          "title": "List Comprehensions",
+          "exercises": [
+            "Alphabet comprehensions",
+            "Clothing list combinations",
+            "Basic numerical comprehensions"
+          ]
+        },
+        {
+          "title": "Jupyter Notebooks",
+          "practice_sets": [
+            "list1.ipynb",
+            "list2.ipynb",
+            "dict.ipynb",
+            "set.ipynb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Assessment",
+      "type": "required",
+      "quizzes": [
+        {
+          "title": "Lists and Tuples Quiz",
+          "url": "https://realpython.com/quizzes/python-lists-tuples/"
+        },
+        {
+          "title": "While Loops Quiz",
+          "url": "https://realpython.com/quizzes/python-while-loop/"
+        }
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    "Create and manipulate Lists and Tuples",
+    "Access elements using indexing",
+    "Apply Python's slicing tool",
+    "Use arithmetic operators with collections",
+    "Apply built-in functions to collections",
+    "Understand core differences between data structures",
+    "Use Sets for unique value operations",
+    "Work with Dictionary key-value structure",
+    "Create efficient lists using comprehensions"
+  ]
+}

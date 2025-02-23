@@ -1,0 +1,110 @@
+{
+  "session": {
+    "number": 1,
+    "title": "Introduction to Python",
+    "format": "In-person class",
+    "prerequisites": {
+      "installations": [
+        "Python",
+        "Visual Studio Code",
+        "Git"
+      ],
+      "readings": [
+        {
+          "title": "The 70% Problem: Hard Truths about AI-assisted coding",
+          "type": "article",
+          "required": true
+        },
+        {
+          "title": "Learning Something New",
+          "type": "video",
+          "duration": "5 min",
+          "required": true
+        }
+      ]
+    }
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "Python Development Environment",
+      "type": "required",
+      "learning_outcomes": [
+        "Understanding Python environment setup",
+        "Basic VS Code usage for Python",
+        "Running Python scripts"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Python Fundamentals",
+      "type": "required",
+      "key_concepts": [
+        "Variables and data types",
+        "Basic syntax",
+        "Comments",
+        "Numbers and casting",
+        "String operations and methods",
+        "Boolean logic",
+        "Operators",
+        "Conditional statements",
+        "Basic functions"
+      ],
+      "resources": [
+        {
+          "type": "documentation",
+          "title": "W3Schools Python Tutorial",
+          "sections": [
+            "Python Intro",
+            "Python Syntax",
+            "Python Variables",
+            "Python Data Types",
+            "Python Strings",
+            "Python Operators",
+            "Python If...Else",
+            "Python Functions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Practical Exercises",
+      "type": "required",
+      "exercises": [
+        {
+          "title": "Python Strings Quiz",
+          "duration": "30 min",
+          "url": "https://realpython.com/quizzes/python-strings/"
+        },
+        {
+          "title": "String Operations Quiz",
+          "duration": "30 min",
+          "url": "https://realpython.com/quizzes/python-split-strings/"
+        },
+        {
+          "title": "Strings1 Exercise",
+          "duration": "30-60 min",
+          "type": "jupyter notebook"
+        },
+        {
+          "title": "Strings2 Exercise",
+          "duration": "30-60 min",
+          "type": "jupyter notebook"
+        }
+      ],
+      "optional": {
+        "title": "Kaggle Python Course",
+        "type": "ongoing",
+        "duration": "4 weeks"
+      }
+    }
+  ],
+  "learning_outcomes": [
+    "Understanding course structure and expectations",
+    "Basic Python development environment setup",
+    "Python script structure comprehension",
+    "Working with strings, conditions, iterations, and functions",
+    "Understanding Boolean operators and logic"
+  ]
+}

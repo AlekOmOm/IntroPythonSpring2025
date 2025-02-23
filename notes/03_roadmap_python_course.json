@@ -1,0 +1,136 @@
+{
+  "session": {
+    "number": 3,
+    "title": "Python Modules and Package Management",
+    "format": "In-person class with pre-learning videos",
+    "prerequisites": {
+      "readings": [
+        {
+          "title": "LLM Guide",
+          "type": "document",
+          "required": true
+        },
+        {
+          "title": "Using Python's pip to Manage Dependencies",
+          "url": "https://realpython.com/what-is-pip/",
+          "duration": "45:00",
+          "focus": "Main concepts per section"
+        }
+      ],
+      "video_tutorials": [
+        {
+          "title": "Python Modules and Packages 1 (Custom Modules)",
+          "duration": "8:37",
+          "url": "https://youtu.be/miGblWWfsvY"
+        },
+        {
+          "title": "Python Modules and Packages 2 (Built-in)",
+          "duration": "6:12",
+          "url": "https://youtu.be/sEvWF1YLxXs"
+        },
+        {
+          "title": "Python Modules and Packages 3 (Third-party)",
+          "duration": "8:20",
+          "url": "https://youtu.be/wbEWDsj3vIg"
+        },
+        {
+          "title": "Text Files in Python",
+          "duration": "6:18",
+          "url": "https://www.youtube.com/watch?v=4mX0uPQFLDU",
+          "practice": "ChatGPT prompt for file handling exercises"
+        }
+      ]
+    }
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "Module System Fundamentals",
+      "type": "required",
+      "key_concepts": [
+        "Import statement usage",
+        "Module creation",
+        "Package creation",
+        "Module vs Package differences",
+        "Import types (own, built-in, third-party)"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Package Management",
+      "type": "required",
+      "topics": [
+        "pip package manager",
+        "Virtual environments",
+        "Dependencies management",
+        "requirements.txt",
+        "Third-party module installation"
+      ],
+      "practical_demo": {
+        "title": "requirements.txt demo",
+        "focus": "Project dependency management"
+      }
+    },
+    {
+      "id": "module3",
+      "title": "Core Module Usage",
+      "type": "required",
+      "modules": [
+        {
+          "name": "OS",
+          "focus": "System interaction"
+        },
+        {
+          "name": "subprocess",
+          "focus": "External program execution"
+        },
+        {
+          "name": "requests",
+          "focus": "HTTP requests"
+        }
+      ]
+    },
+    {
+      "id": "module4",
+      "title": "Practical Exercises",
+      "type": "required",
+      "exercises": [
+        {
+          "title": "Environment Variables and OS Module",
+          "focus": "API tokens and env management",
+          "tasks": [
+            "Environment variable manipulation",
+            ".env file usage",
+            "gitignore configuration"
+          ]
+        },
+        {
+          "title": "Subprocess Module",
+          "focus": "Git operations and file handling",
+          "source": "https://github.com/python-elective-kea/spring2024.git"
+        },
+        {
+          "title": "Requests and Github API",
+          "focus": "API interaction"
+        },
+        {
+          "title": "CSV Module",
+          "focus": "File parsing",
+          "data": "reviews.csv"
+        }
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    "Work with files in Python",
+    "Use Python's import statement",
+    "Create custom modules and packages",
+    "Understand module/package differences",
+    "Import various module types",
+    "Install third-party modules with pip",
+    "Create and manage virtual environments",
+    "Handle project dependencies",
+    "Use requests module for HTTP operations",
+    "Manage environment variables"
+  ]
+}
