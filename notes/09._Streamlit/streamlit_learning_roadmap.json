@@ -1,0 +1,378 @@
+
+  "streamlit_learning_roadmap": {
+    "metadata": {
+      "version": "1.0",
+      "created": "2025-03-24",
+      "author": "Claude",
+      "context": "Python Elective Course Spring 2025",
+      "goal": "Master Streamlit for Python course projects and exam"
+    },
+    "phases": [
+      {
+        "id": "phase1",
+        "title": "Foundation",
+        "description": "Basic setup and core concepts",
+        "duration": "1-2 days",
+        "steps": [
+          {
+            "name": "Installation and Environment",
+            "tasks": [
+              "Install Streamlit via pip",
+              "Setup development environment with virtual env",
+              "Learn to run apps with 'streamlit run'",
+              "Understand the auto-reload feature"
+            ]
+          },
+          {
+            "name": "Hello World App",
+            "tasks": [
+              "Create minimal app with st.title and st.write",
+              "Explore basic text display (markdown, latex, code)",
+              "Understand script execution flow (top-to-bottom model)",
+              "Learn app configuration options (set_page_config)"
+            ]
+          },
+          {
+            "name": "Basic Data Display",
+            "tasks": [
+              "Display tables, dataframes, and metrics",
+              "Create simple charts (line, bar, scatter)",
+              "Show images and media content",
+              "Format text with markdown"
+            ]
+          }
+        ],
+        "project": "Personal dashboard with text, images, and simple charts",
+        "resources": [
+          "https://docs.streamlit.io/library/get-started",
+          "https://docs.streamlit.io/library/api-reference"
+        ]
+      },
+      {
+        "id": "phase2",
+        "title": "Interaction and Layout",
+        "description": "Building responsive interfaces",
+        "duration": "2-3 days",
+        "steps": [
+          {
+            "name": "Input Widgets",
+            "tasks": [
+              "Implement buttons, sliders, and text inputs",
+              "Use selectbox, multiselect, and radio",
+              "Add date and time selectors",
+              "Create file uploaders for data import"
+            ]
+          },
+          {
+            "name": "Layout Management",
+            "tasks": [
+              "Design with columns and containers",
+              "Create sidebar navigation",
+              "Use expanders for collapsible content",
+              "Implement tabs for organized interfaces",
+              "Apply custom spacing and padding"
+            ]
+          },
+          {
+            "name": "Forms and Batch Processing",
+            "tasks": [
+              "Build input forms for batched submission",
+              "Implement form validation patterns",
+              "Create multi-step workflows",
+              "Handle form state and errors"
+            ]
+          }
+        ],
+        "project": "Interactive data explorer with filters and visualization options",
+        "resources": [
+          "https://docs.streamlit.io/library/api-reference/widgets",
+          "https://docs.streamlit.io/library/api-reference/layout"
+        ]
+      },
+      {
+        "id": "phase3",
+        "title": "State and Data Flow",
+        "description": "Managing application data",
+        "duration": "2-3 days",
+        "steps": [
+          {
+            "name": "Session State",
+            "tasks": [
+              "Initialize and access session state",
+              "Persist data between reruns",
+              "Implement callbacks for state changes",
+              "Build stateful application patterns"
+            ]
+          },
+          {
+            "name": "Caching Strategies",
+            "tasks": [
+              "Use st.cache_data for function results",
+              "Apply st.cache_resource for resource objects",
+              "Set cache expiry and management",
+              "Understand cache invalidation behavior"
+            ]
+          },
+          {
+            "name": "Data Processing Workflows",
+            "tasks": [
+              "Create data loading and transformation pipelines",
+              "Implement progress indicators for long operations",
+              "Build error handling patterns",
+              "Design efficient data flow architecture"
+            ]
+          }
+        ],
+        "project": "Multi-step data processing application with state persistence",
+        "resources": [
+          "https://docs.streamlit.io/library/api-reference/session-state",
+          "https://docs.streamlit.io/library/advanced-features/caching"
+        ]
+      },
+      {
+        "id": "phase4",
+        "title": "LLM Integration",
+        "description": "Connecting with course LLM components",
+        "duration": "3-4 days",
+        "steps": [
+          {
+            "name": "API Integration",
+            "tasks": [
+              "Connect to external LLM APIs",
+              "Handle API keys and secrets",
+              "Implement request and response handling",
+              "Create error handling for API calls"
+            ]
+          },
+          {
+            "name": "Prompt Interface",
+            "tasks": [
+              "Design intuitive prompt input interfaces",
+              "Implement prompt templates and examples",
+              "Create parameter controls for LLM configuration",
+              "Build prompt history and management"
+            ]
+          },
+          {
+            "name": "Response Visualization",
+            "tasks": [
+              "Display and format LLM responses",
+              "Implement streaming responses",
+              "Create interactive response exploration",
+              "Build comparison tools for multiple outputs"
+            ]
+          },
+          {
+            "name": "RAG Integration",
+            "tasks": [
+              "Connect to vector databases",
+              "Implement document upload and processing",
+              "Create search interfaces for retrievers",
+              "Build complete RAG workflow visualization"
+            ]
+          }
+        ],
+        "project": "LLM chat interface with RAG capabilities",
+        "resources": [
+          "https://blog.streamlit.io/langchain-tutorial-1-build-an-llm-powered-app-in-18-lines-of-code/",
+          "https://python.langchain.com/docs/integrations/callbacks/streamlit"
+        ]
+      },
+      {
+        "id": "phase5",
+        "title": "Advanced Features",
+        "description": "Extending functionality",
+        "duration": "2-3 days",
+        "steps": [
+          {
+            "name": "Performance Optimization",
+            "tasks": [
+              "Profile and identify bottlenecks",
+              "Optimize data loading and processing",
+              "Apply advanced caching strategies",
+              "Implement lazy loading techniques"
+            ]
+          },
+          {
+            "name": "Custom Components",
+            "tasks": [
+              "Use existing component libraries",
+              "Integrate JavaScript visualizations",
+              "Implement custom HTML/CSS",
+              "Create specialized interaction patterns"
+            ]
+          },
+          {
+            "name": "Multi-page Applications",
+            "tasks": [
+              "Design coherent multi-page structure",
+              "Implement page navigation",
+              "Share state between pages",
+              "Create unified app architecture"
+            ]
+          }
+        ],
+        "project": "Advanced multi-page application with custom components",
+        "resources": [
+          "https://docs.streamlit.io/library/get-started/multipage-apps",
+          "https://docs.streamlit.io/library/components"
+        ]
+      },
+      {
+        "id": "phase6",
+        "title": "Deployment and Documentation",
+        "description": "Preparing for production",
+        "duration": "1-2 days",
+        "steps": [
+          {
+            "name": "App Packaging",
+            "tasks": [
+              "Create requirements.txt",
+              "Document dependencies",
+              "Set up configuration files",
+              "Structure application for deployment"
+            ]
+          },
+          {
+            "name": "Deployment Options",
+            "tasks": [
+              "Deploy to Streamlit Community Cloud",
+              "Explore self-hosting options",
+              "Configure environment variables",
+              "Set up continuous deployment"
+            ]
+          },
+          {
+            "name": "Documentation",
+            "tasks": [
+              "Create user documentation",
+              "Document code and architecture",
+              "Provide usage examples",
+              "Create README and contribution guidelines"
+            ]
+          }
+        ],
+        "project": "Deploy exam project prototype with documentation",
+        "resources": [
+          "https://docs.streamlit.io/streamlit-community-cloud",
+          "https://blog.streamlit.io/best-practices-for-deploying-streamlit-apps/"
+        ]
+      }
+    ],
+    "course_integration": {
+      "session9": {
+        "title": "Streamlit Frontend",
+        "alignment": "Direct focus on Streamlit fundamentals",
+        "preparation": "Review documentation and brainstorm project ideas",
+        "activities": [
+          "Documentation overview and small exercises",
+          "MVP development for potential exam project"
+        ]
+      },
+      "related_sessions": [
+        {
+          "session": 5,
+          "title": "Introduction to LLMs in Python",
+          "integration": "Frontend for LLM interactions"
+        },
+        {
+          "session": 6,
+          "title": "Langchain Basics and RAG",
+          "integration": "UI for RAG pipelines"
+        },
+        {
+          "session": 7,
+          "title": "Prompt Engineering",
+          "integration": "Interactive prompt builder"
+        },
+        {
+          "session": 10,
+          "title": "Data Science Tools",
+          "integration": "Data visualization dashboards"
+        }
+      ]
+    },
+    "exam_project_ideas": [
+      {
+        "title": "RAG-powered Documentation Search",
+        "description": "Create a Streamlit interface for searching through technical documentation using RAG",
+        "components": [
+          "Document upload and processing",
+          "Vector database integration",
+          "Query interface with prompt engineering",
+          "Results visualization and exploration"
+        ],
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Interactive Data Analysis Dashboard",
+        "description": "Build a comprehensive data analysis tool with visualization and ML integration",
+        "components": [
+          "Data import and transformation",
+          "Custom visualization with multiple chart types",
+          "Statistical analysis tools",
+          "ML model training and prediction interface"
+        ],
+        "difficulty": "Medium-Hard"
+      },
+      {
+        "title": "Agentic LLM Interface",
+        "description": "Create a UI for interacting with LLM agents that can perform tasks",
+        "components": [
+          "Agent configuration interface",
+          "Tool connection framework",
+          "Visualization of agent reasoning",
+          "Task execution monitoring"
+        ],
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Educational Code Assistant",
+        "description": "Build a learning tool that helps understand Python concepts",
+        "components": [
+          "Code input and execution",
+          "LLM-powered explanation generation",
+          "Interactive code visualization",
+          "Concept learning modules"
+        ],
+        "difficulty": "Medium"
+      }
+    ],
+    "learning_resources": {
+      "official": [
+        {
+          "name": "Streamlit Documentation",
+          "url": "https://docs.streamlit.io/"
+        },
+        {
+          "name": "Streamlit Gallery",
+          "url": "https://streamlit.io/gallery"
+        },
+        {
+          "name": "Streamlit Blog",
+          "url": "https://blog.streamlit.io/"
+        }
+      ],
+      "tutorials": [
+        {
+          "name": "30 Days of Streamlit",
+          "url": "https://30days.streamlit.app/"
+        },
+        {
+          "name": "Streamlit for Data Science",
+          "url": "https://www.streamlit.io/for/data-science"
+        }
+      ],
+      "github_repositories": [
+        {
+          "name": "Streamlit Demo: The Udacity Self-driving Car Image Browser",
+          "url": "https://github.com/streamlit/demo-self-driving"
+        },
+        {
+          "name": "Awesome Streamlit",
+          "url": "https://github.com/MarcSkovMadsen/awesome-streamlit"
+        }
+      ]
+    }
+  }
+}

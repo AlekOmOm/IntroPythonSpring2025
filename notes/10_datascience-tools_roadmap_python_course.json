@@ -1,0 +1,121 @@
+{
+  "session": {
+    "number": 10,
+    "title": "Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler",
+    "format": "In-person class with pre-learning videos and exercises",
+    "prerequisites": {
+      "video_tutorials": [
+        {
+          "title": "NumPy vs Pandas",
+          "duration": "5:54",
+          "url": "https://www.youtube.com/watch?v=KHoEbRH46Zk",
+          "required": true
+        },
+        {
+          "title": "Python NumPy Tutorial for Beginners",
+          "duration": "58:09",
+          "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+          "required": true
+        },
+        {
+          "title": "Matplotlib Tutorial: For Physicists, Engineers, and Mathematicians",
+          "duration": "47:59",
+          "url": "https://www.youtube.com/watch?v=cTJBJH8hacc&list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM",
+          "required": true,
+          "note": "Installation of 'SciencePlots' mentioned at the start is not necessary."
+        }
+      ],
+      "interactive_exercises": [
+         {
+            "title": "NumPy Practice with ChatGPT",
+            "description": "Use the provided ChatGPT prompt to practice NumPy exercises covering array creation, manipulation, and mathematical operations. Focus on iterative learning with feedback.",
+            "required": true
+         }
+      ],
+      "estimated_time": "approx. 3 hours"
+    }
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "Introduction to NumPy",
+      "type": "required",
+      "key_concepts": [
+        "Purpose of NumPy (Numerical Python)",
+        "Creating NumPy arrays (ndarrays)",
+        "Basic array manipulation (indexing, slicing)",
+        "Mathematical operations on arrays",
+        "Statistical functions (mean, variance)"
+      ],
+      "activities": [
+        "Review pre-learning video: 'Python NumPy Tutorial for Beginners'",
+        "Complete pre-learning ChatGPT exercises",
+        "In-class examples and discussion"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Introduction to Matplotlib",
+      "type": "required",
+      "key_concepts": [
+        "Purpose of Matplotlib (Plotting)",
+        "Creating basic plots (line, scatter)",
+        "Customizing plots (labels, titles, legends)",
+        "Using subplots for multiple figures",
+        "Saving plots"
+      ],
+      "activities": [
+        "Review pre-learning video: 'Matplotlib Tutorial'",
+        "In-class demonstration: Plotting Big-O complexity graph",
+        "Exercise 1: Replicating specific plots"
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Basic Data Analysis Workflow",
+      "type": "required",
+      "key_concepts": [
+        "Loading data (e.g., from TSV files using NumPy)",
+        "Calculating descriptive statistics (mean, variance, correlation)",
+        "Performing Linear Regression (using NumPy or SciPy)",
+        "Visualizing data and regression results using Matplotlib"
+      ],
+      "activities": [
+        "Exercise 2: Analyzing TSV datasets (mean, variance, correlation, linear regression, plotting)"
+      ]
+    },
+    {
+      "id": "module4",
+      "title": "Introduction to Pandas (Preview)",
+      "type": "required",
+      "key_concepts": [
+        "Understanding the role of Pandas in data analysis",
+        "Key data structures: Series and DataFrame (brief overview)",
+        "Comparison with NumPy"
+      ],
+      "activities": [
+        "Review pre-learning video: 'NumPy vs Pandas'",
+        "Brief in-class mention, setting stage for next week"
+      ]
+    },
+    {
+        "id": "module5",
+        "title": "Further Learning & Resources",
+        "type": "supplementary",
+        "resources": [
+            {"type": "documentation", "title": "Numpy Documentation", "url": "https://numpy.org/doc/stable/user/absolute_beginners.html"},
+            {"type": "documentation", "title": "Matplotlib Documentation", "url": "https://matplotlib.org/stable/"},
+            {"type": "tutorial", "title": "NumPy Tutorial (Real Python)", "url": "https://realpython.com/numpy-tutorial/"},
+            {"type": "tutorial", "title": "Python Plotting With Matplotlib (Real Python)", "url": "https://realpython.com/python-matplotlib-guide/"}
+        ],
+        "activities": [
+            "Review provided tutorials as needed/post-session"
+        ]
+    }
+  ],
+  "learning_outcomes": [
+    "Use the Numpy library for numerical operations and array manipulation",
+    "Understand the purpose and basic concepts of the Pandas library",
+    "Use the Matplotlib library to create and customize basic data visualizations"
+  ]
+}

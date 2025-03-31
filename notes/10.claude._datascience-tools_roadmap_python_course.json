@@ -1,0 +1,131 @@
+{
+  "session": {
+    "number": 10,
+    "title": "Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler",
+    "format": "In-person class with pre-learning videos",
+    "prerequisites": {
+      "video_tutorials": [
+        {
+          "title": "NumPy vs Pandas",
+          "duration": "5:54",
+          "url": "https://www.youtube.com/watch?v=KHoEbRH46Zk"
+        },
+        {
+          "title": "Python NumPy Tutorial for Beginners",
+          "duration": "58:09",
+          "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI"
+        },
+        {
+          "title": "Matplotlib Tutorial: For Physicists, Engineers, and Mathematicians",
+          "duration": "47:59",
+          "url": "https://www.youtube.com/watch?v=cTJBJH8hacc"
+        }
+      ],
+      "practice": [
+        {
+          "title": "NumPy Exercises",
+          "type": "interactive",
+          "prompt": "Practice Python exercises focusing on the NumPy library",
+          "focus": "Creating arrays, manipulating arrays, mathematical operations"
+        }
+      ]
+    }
+  },
+  "learning_modules": [
+    {
+      "id": "module1",
+      "title": "NumPy Fundamentals",
+      "type": "required",
+      "key_concepts": [
+        "Arrays vs. Lists",
+        "Array creation and manipulation",
+        "Indexing and slicing",
+        "Broadcasting",
+        "Vectorized operations",
+        "Mathematical functions",
+        "Statistical operations",
+        "Linear algebra operations"
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Matplotlib Fundamentals",
+      "type": "required",
+      "key_concepts": [
+        "Figure and Axes",
+        "Basic plotting (line, scatter, bar)",
+        "Customizing plots",
+        "Subplots",
+        "Color maps",
+        "Annotations and text",
+        "Saving figures"
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Introduction to Pandas",
+      "type": "introduction",
+      "key_concepts": [
+        "Series and DataFrames",
+        "Data import/export",
+        "Data inspection",
+        "Basic operations"
+      ]
+    },
+    {
+      "id": "module4",
+      "title": "Practical Exercises",
+      "type": "required",
+      "exercises": [
+        {
+          "title": "Plotting Exercise",
+          "type": "hands_on",
+          "focus": "Recreate specific plots using Matplotlib"
+        },
+        {
+          "title": "Linear Regression Analysis",
+          "type": "data_analysis",
+          "focus": "Work with TSV files, perform statistical analysis, and visualize results",
+          "tasks": [
+            "Calculate mean and variance using NumPy",
+            "Compute Pearson correlation",
+            "Perform linear regression",
+            "Visualize data and regression lines"
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    "Create and manipulate NumPy arrays",
+    "Perform vectorized operations and mathematical computations",
+    "Apply statistical functions to numerical data",
+    "Create basic and customized plots with Matplotlib",
+    "Work with subplots and multiple visualizations",
+    "Load and process data from external files",
+    "Perform linear regression analysis",
+    "Understand the basic structure of Pandas objects"
+  ],
+  "resources": [
+    {
+      "type": "documentation",
+      "title": "NumPy Documentation",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html"
+    },
+    {
+      "type": "documentation",
+      "title": "Matplotlib Documentation",
+      "url": "https://matplotlib.org/stable/"
+    },
+    {
+      "type": "tutorial",
+      "title": "NumPy Tutorial: Your First Steps Into Data Science in Python",
+      "url": "https://realpython.com/numpy-tutorial/"
+    },
+    {
+      "type": "tutorial",
+      "title": "Python Plotting With Matplotlib (Guide)",
+      "url": "https://realpython.com/python-matplotlib-guide/"
+    }
+  ]
+}

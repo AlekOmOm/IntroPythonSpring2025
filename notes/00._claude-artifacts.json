@@ -1,0 +1,40 @@
+
+{
+    "Data_Science_Tools__Key_Terms_and_Analysis": {
+        "link": "https://claude.site/artifacts/5665e909-fe2f-4b0c-950b-d8dfc8662c85?fullscreen=false",
+        "topics": [
+            { "title": "NumPy",
+                "concepts": [
+                    "Array",
+                    "Vectorization",
+                    "Broadcasting",
+                    "Universal Functions (ufuncs)",
+                    "Indexing and Slicing",
+                    "Reshaping",
+                    "Aggregation Functions",
+                    "Linear Algebra Operations"
+                ]
+            },
+            { "title": "Matplotlib",
+                "concepts": [
+                    "Figure",
+                    "Axes",
+                    "Plots",
+                    "Subplots",
+                    "Customization",
+                    "Saving Figures"
+                ]
+            },
+            { "title": "Statistical Analysis",
+                "concepts": [
+                    "Mean",
+                    "Variance",
+                    "Correlation",
+                    "Linear Regression"
+                ]
+            }
+        ]
+    }
+
+}
+
