@@ -44,7 +44,7 @@ OBS: Han starter  med at beskrive et modul der skal installeres (SciencePlots). 
 
 Vi kigger på hvordan man kan lave et plot som dette:
 
-![](../assets/big-O.png)
+![](../assets/big-o.png)
 
 * Kode fra undervisningen kan i finde [her](../materialer/ses10/)
 
@@ -62,8 +62,12 @@ Vi kigger på hvordan man kan lave et plot som dette:
 -->
 
 ### Øvelser
+### 1. Billedmanipulation med numpy
+* Brug `plt.imread()` og `plt.imshow()` og derefter numpy operationer til at manimulere med et billede. 
+* Brug `from scipy.io import wavfile`, `wavfile.read()` og `wavefile.write()` og numpy til at manipulere med lyden. 
+    Brug evt `https://github.com/python-elective-kea/IntroPythonSpring2025/raw/refs/heads/main/assets/Bongo_sound.wav`
 
-### 1. Lav disse plots
+### 2. Lav disse plots
 Du skal lave koden der generer disse plots. Kom så tæt på denne illustration som muligt. Når du er færdig kan du forsøge at forbedre plotenes udseende. 
 
 (Tip: [brug dokumentationen for matplotlib](https://matplotlib.org/stable/plot_types/index.html))
@@ -72,7 +76,7 @@ Du skal lave koden der generer disse plots. Kom så tæt på denne illustration 
 
 
 
-### 2. Numpy, Matplotlib og linær regressions analyse
+### 3. Numpy, Matplotlib og linær regressions analyse
 Start med at downloade disse fire filer fra et meget berømt dataset (i hvert tilfælde inden for Data Science miljøet):
 * [Data 1](../assets/data1.tsv), [Data 2](../assets/data2.tsv), [Data 3](../assets/data3.tsv), og [Data 4](../assets/data4.tsv).    
 Formatet er _.tsv_ og det står for _tab seperated values_. Hver fil har to kolonner (adskilt med tab-tegnet). Den første kolonne er x-værdier, og den anden kolonne er y-værdier.    
